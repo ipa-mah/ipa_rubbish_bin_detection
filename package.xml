@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+        <name>ipa_rubbish_bin_detection</name>
+        <version>1.0.1</version>
+        <description>The ipa_rubbish_bin_detection package</description>
+        <maintainer email="manh.ha.hoang@ipa.fraunhofer.de">Manh-Ha Hoang</maintainer>
+        <author email="manh.ha.hoang@ipa.fraunhofer.de">Manh-Ha Hoang</author>
+        <license>IPA</license>
+        <buildtool_depend>catkin</buildtool_depend>
+        <test_depend>rostest</test_depend>
+        <depend>actionlib</depend>
+        <depend>cmake_modules</depend>
+        <depend>cv_bridge</depend>
+        <depend>dynamic_reconfigure</depend>
+        <depend>eigen_conversions</depend>
+        <depend>geometry_msgs</depend>
+        <depend>image_transport</depend>
+        <depend>opencv3</depend>
+        <depend>pcl_ros</depend>
+        <depend>message_generation</depend>
+        <depend>message_runtime</depend>
+        <depend>rosconsole</depend>
+        <depend>roscpp</depend>
+        <depend>roslaunch</depend>
+        <depend>roslib</depend>
+        <depend>rospy</depend>
+        <depend>sensor_msgs</depend>
+        <depend>std_msgs</depend>
+        <depend>tf</depend>
+        <depend>tf_conversions</depend>
+        <depend>visualization_msgs</depend>
+        <export>
+
+        </export>
+</package>

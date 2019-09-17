@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="colored_point_cloud_topic" default="/camera/depth_registered/points"/>
+	<node name="ipa_rubbish_bin_detection" pkg="ipa_rubbish_bin_detection" cwd="node" type="ipa_rubbish_bin_detection_node" output="screen">
+		<rosparam command="load" file="$(find ipa_rubbish_bin_detection)/launch/ipa_rubbish_bin_detection_params.yaml"/>		
+		<remap from="colored_point_cloud" to="$(arg colored_point_cloud_topic)"/> <!-- depth_registered -->
+	</node>
+        <!--include
+        file="$(find realsense2_camera)/launch/rs_rgbd.launch">
+        </include-->
+</launch>
