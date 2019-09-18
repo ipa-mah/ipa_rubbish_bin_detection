@@ -12,3 +12,4 @@ Commands:
 
 You can open RVIZ to check the result.
 
+<img src="https://github.com/ipa-mah/ipa_rubbish_bin_detection/blob/master/etc/cylinder_detection.png" />
