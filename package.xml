@@ -15,7 +15,7 @@
         <depend>eigen_conversions</depend>
         <depend>geometry_msgs</depend>
         <depend>image_transport</depend>
-        <depend>opencv3</depend>
+        <depend>libopencv-dev</depend>
         <depend>pcl_ros</depend>
         <depend>message_generation</depend>
         <depend>message_runtime</depend>
