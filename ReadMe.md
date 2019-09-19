@@ -1,10 +1,10 @@
 # ipa_rubbish_bin_detection
 
-This package aims at providing the solution of rubish bin detection. Currently, only rubbish bin with the cylinder shape is detected. Graping points are selected in the top edge of the rubbish bin. 
+This package aims at providing the solution of rubbish bin detection. Currently, only rubbish bin with the cylinder shape is detected. Grasping points are selected in the top edge of the rubbish bin. 
 
 Please change camera intrinsics and measure the height of the cylinder rubbish bin and insert it in the `launch/ipa_rubbish_bin_detection_params.yaml` file.
 
-The cylinder rubbish bin parameters and grapsing points are published as `/cylinder_object` topic. 
+The cylinder rubbish bin information and grapsing points are published as `/cylinder_object` topic. 
 
 Commands:
 
@@ -17,8 +17,8 @@ You can open RVIZ to check the result:
 <img src="https://github.com/ipa-mah/ipa_rubbish_bin_detection/blob/master/etc/cylinder_detection.png" />
 
 
-TODO: 
+TODOs: 
  * Change the orientation of the grasping points.
- * Generalize shapes of rubbish bin
+ * Generalize shapes of rubbish bin.
  
 Please contact me if you have any question.

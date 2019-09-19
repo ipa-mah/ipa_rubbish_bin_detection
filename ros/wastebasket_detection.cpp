@@ -466,7 +466,7 @@ bool IpaWasteBasteDetection::cylinderDetection(pcl::PointCloud<pcl::PointXYZRGB>
   pcl::transformPoint(cylinder_params.center_pt,cylinder_params.center_pt,transform_cam2plane.inverse());
   // Store the height of cylinder
   //cylinder_params.height = std::fabs(max_point.z - min_point.z) + floor_plane_inlier_distance_; //not sure??
-  cylinder_params.height = std::fabs(max_point.z); //not sure??
+  cylinder_params.height = std::fabs(max_point.z);
 
   //compare with ground truth height, if the difference > 1.5 cm -> incorrect
   double height_difference = std::fabs(cylinder_params.height - ground_truth_cylinder_height_);
