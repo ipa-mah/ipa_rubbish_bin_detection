@@ -50,7 +50,7 @@ generate_dynamic_reconfigure_options(
 ## Generate messages in the 'msg' folder
 add_message_files(
     DIRECTORY
-    msgs
+    msg
     FILES
     CylinderParams.msg
     )
