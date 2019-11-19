@@ -1,5 +1,8 @@
 # ipa_rubbish_bin_detection
 
+Status:  [![Build Status](https://travis-ci.com/ipa-mah/ipa_rubbish_bin_detection.svg?branch=master)](https://travis-ci.com/ipa-mah/ipa_rubbish_bin_detection)
+------------------
+
 This package aims at providing the solution of rubbish bin detection. Currently, only rubbish bin with the cylinder shape is detected. Grasping points are selected in the top edge of the rubbish bin. 
 
 Please change camera intrinsics and measure the height of the cylinder rubbish bin and insert it in the `launch/ipa_rubbish_bin_detection_params.yaml` file.

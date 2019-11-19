@@ -570,7 +570,7 @@ void IpaWasteBasteDetection::calculateGraspingPoints(std::vector<geometry_msgs::
     //Create quartenion from roll,pitch,yaw
     //RPYToPose(0,0,((index-2)*angle*M_PI)/180,grasping_poses[point].pose);
     Eigen::Matrix3d grasping_rot_wtf_center;
-    RPYToRotation(0,0,((index-2)*angle*M_PI)/180,grasping_rot_wtf_center);
+    RPYToRotation(0,((index-2)*angle*M_PI)/180.0,0,grasping_rot_wtf_center);
     grasping_pose_wtf_center.rotate(grasping_rot_wtf_center);
     grasping_pose_wtf_camera = center_wtf_camera_pose*grasping_pose_wtf_center;
 

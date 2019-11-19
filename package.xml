@@ -5,7 +5,7 @@
         <description>The ipa_rubbish_bin_detection package</description>
         <maintainer email="manh.ha.hoang@ipa.fraunhofer.de">Manh-Ha Hoang</maintainer>
         <author email="manh.ha.hoang@ipa.fraunhofer.de">Manh-Ha Hoang</author>
-        <license>IPA</license>
+        <license>BSD-3</license>
         <buildtool_depend>catkin</buildtool_depend>
         <test_depend>rostest</test_depend>
         <depend>actionlib</depend>
