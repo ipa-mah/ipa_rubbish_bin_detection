@@ -23,5 +23,10 @@ You can open RVIZ to check the result:
 TODOs: 
  * Change the orientation of the grasping points.
  * Generalize shapes of rubbish bin.
- 
+
 Please contact me if you have any question.
+
+This package is one of software components of the research project [**BakeR**](https://www.baker-projekt.de/)
+
+Project video: [https://www.youtube.com/watch?v=2exWVXK_xsA](https://www.youtube.com/watch?v=2exWVXK_xsA)
+
